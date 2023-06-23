@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataModels\Local\" />
+    <Folder Include="DataModels\Default\" />
     <Folder Include="Data\" />
   </ItemGroup>
 

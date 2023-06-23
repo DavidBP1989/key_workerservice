@@ -1,14 +1,14 @@
-﻿using KeyWorkerService.Application.UseCases.Local;
+﻿using KeyWorkerService.Application.UseCases.LoadCUtoQS;
 using KeyWorkerService.Domain.Abstractions;
 
 namespace KeyWorkerService.Application.Services
 {
     public class EntryPointService : IEntryPointService
     {
-        private readonly IUsuario _usuario;
-        public EntryPointService(IUsuario usuario)
+        private readonly ILoadCUtoQS _loadCUtoQS;
+        public EntryPointService(ILoadCUtoQS loadCUtoQS)
         {
-            _usuario = usuario;
+            _loadCUtoQS = loadCUtoQS;
         }
 
         public Task AnotherTask()
@@ -18,7 +18,7 @@ namespace KeyWorkerService.Application.Services
 
         public async Task LoadCUtoQS(int delay, CancellationToken cancellationToken)
         {
-            await _usuario.DoWork();
+            await _loadCUtoQS.DoWork();
             await Task.Delay(delay, cancellationToken);
         }
     }

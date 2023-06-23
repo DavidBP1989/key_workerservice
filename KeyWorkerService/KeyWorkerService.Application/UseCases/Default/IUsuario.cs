@@ -1,4 +1,4 @@
-﻿namespace KeyWorkerService.Application.UseCases.Local
+﻿namespace KeyWorkerService.Application.UseCases.Default
 {
     public interface IUsuario
     {

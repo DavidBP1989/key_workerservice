@@ -1,4 +1,4 @@
-﻿namespace KeyWorkerService.Infrastructure.DataModels.Local;
+﻿namespace KeyWorkerService.Infrastructure.DataModels.Default;
 
 public partial class Usuario
 {

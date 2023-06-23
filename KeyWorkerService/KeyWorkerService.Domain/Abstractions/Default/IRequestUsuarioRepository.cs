@@ -1,6 +1,6 @@
-﻿using KeyWorkerService.Domain.Models.Local;
+﻿using KeyWorkerService.Domain.Models.Default;
 
-namespace KeyWorkerService.Domain.Abstractions.Local
+namespace KeyWorkerService.Domain.Abstractions.Default
 {
     public interface IRequestUsuarioRepository
     {

@@ -6,11 +6,13 @@ namespace KeyWorkerService.Worker
     {
         private readonly ILogger<Worker> _logger;
         private readonly IEntryPointService _entryPointService;
+        private readonly WorkerSettings _settings;
 
-        public Worker(ILogger<Worker> logger, IEntryPointService entryPointService)
+        public Worker(ILogger<Worker> logger, IEntryPointService entryPointService, WorkerSettings settings)
         {
             _logger = logger;
             _entryPointService = entryPointService;
+            _settings = settings;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -21,7 +23,7 @@ namespace KeyWorkerService.Worker
             {
                 List<Task> tasks = new()
                 {
-                    _entryPointService.LoadCUtoQS(1000, stoppingToken)
+                    _entryPointService.LoadCUtoQS(_settings.LoadCUtoQS, stoppingToken)
                 };
 
                 await Task.WhenAll(tasks);

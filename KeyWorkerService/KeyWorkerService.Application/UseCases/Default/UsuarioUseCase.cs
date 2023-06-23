@@ -1,7 +1,7 @@
 ﻿using KeyWorkerService.Domain.Abstractions;
-using KeyWorkerService.Domain.Abstractions.Local;
+using KeyWorkerService.Domain.Abstractions.Default;
 
-namespace KeyWorkerService.Application.UseCases.Local
+namespace KeyWorkerService.Application.UseCases.Default
 {
     public class UsuarioUseCase : IUsuario
     {

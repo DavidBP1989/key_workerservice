@@ -1,9 +1,9 @@
-﻿using KeyWorkerService.Domain.Abstractions.Local;
-using KeyWorkerService.Domain.Models.Local;
+﻿using KeyWorkerService.Domain.Abstractions.Default;
+using KeyWorkerService.Domain.Models.Default;
 using KeyWorkerService.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace KeyWorkerService.Infrastructure.Repositories.Local
+namespace KeyWorkerService.Infrastructure.Repositories.Default
 {
     public class UsuarioRepository : IRequestUsuarioRepository
     {

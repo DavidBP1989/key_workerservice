@@ -13,6 +13,11 @@ IHost host = Host.CreateDefaultBuilder(args)
         services.AddSingleton<IEntryPointService, EntryPointService>();
         services.AddRepositories();
         services.AddUseCaseServices();
+        
+        var workerSettings = new WorkerSettings();
+        hostContext.Configuration.Bind(nameof(WorkerSettings), workerSettings);
+        services.AddSingleton(workerSettings);
+
         services.AddHostedService<Worker>();
     })
     .Build();
