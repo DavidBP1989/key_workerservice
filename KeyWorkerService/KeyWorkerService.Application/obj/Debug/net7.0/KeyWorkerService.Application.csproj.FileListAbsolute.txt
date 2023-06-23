@@ -1,0 +1,15 @@
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\bin\Debug\net7.0\KeyWorkerService.Application.deps.json
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\bin\Debug\net7.0\KeyWorkerService.Application.dll
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\bin\Debug\net7.0\KeyWorkerService.Application.pdb
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.csproj.AssemblyReference.cache
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.AssemblyInfoInputs.cache
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.AssemblyInfo.cs
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.csproj.CoreCompileInputs.cache
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.dll
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\refint\KeyWorkerService.Application.dll
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.pdb
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\ref\KeyWorkerService.Application.dll
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\bin\Debug\net7.0\KeyWorkerService.Domain.dll
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\bin\Debug\net7.0\KeyWorkerService.Domain.pdb
+D:\David\WorkerServiceV2\KeyWorkerService\KeyWorkerService.Application\obj\Debug\net7.0\KeyWorkerService.Application.csproj.CopyComplete

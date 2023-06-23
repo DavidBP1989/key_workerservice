@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PajOsz9qMogLXAh3vc7y7MXwTv0a4Vs0PJnDdV+7fQ9AC4pM/EDTTtNpMgZOoTlvwDN3AhysqUgEsDDwvbXQaA==",
+  "success": true,
+  "projectFilePath": "D:\\David\\WorkerServiceV2\\KeyWorkerService\\KeyWorkerService.Domain\\KeyWorkerService.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emmanuel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
